@@ -1,7 +1,11 @@
 import { ListaProdutos } from "../Components/ListaProdutos";
 import { Link } from "react-router-dom";
+import "./Table.css";
+import { AiFillEdit } from "react-icons/ai";
+import { AiFillDelete } from "react-icons/ai";
 
 export default function Produtos() {
+  document.title = "Produtos";
   return (
     <>
       <h1>Produtos</h1>
@@ -21,11 +25,19 @@ export default function Produtos() {
               <td>{produto.id}</td>
               <td>{produto.nome}</td>
               <td>{produto.preco}</td>
-              <td><Link to={`/editar/produtos/${produto.id}`}>Editar</Link></td>
+              <td>
+                <Link to={`/editar/produtos/${produto.id}`}>
+                  <AiFillEdit />
+                </Link>{" "}
+                |{" "}
+                <Link to={`/excluir/produtos/${produto.id}`}>
+                  <AiFillDelete />
+                </Link>
+              </td>
             </tr>
           ))}
         </tbody>
-      </table >
+      </table>
     </>
   );
 }
