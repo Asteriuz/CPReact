@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer>
-        <p>Rodapé</p>
+        <p>Guinchei Celurares</p>
     </footer>
   )
 }

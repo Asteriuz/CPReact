@@ -1,45 +1,60 @@
+html,
+body,
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  height: 100%
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
+nav {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
+  & a {
+    color: white;
+    font-size: 1. Sem;
+    padding: 15px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+main {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 
-.card {
-  padding: 2em;
+footer {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: rgb(24, 24, 24);
 }
 
-.read-the-docs {
-  color: #888;
+#lista-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 80px;
+}
+
+#produto>img {
+  width: 300px;
 }
