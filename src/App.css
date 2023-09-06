@@ -66,3 +66,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
+.menu a {
+  font-size: 1.2em;
+}
