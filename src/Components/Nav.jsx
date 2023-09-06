@@ -5,7 +5,7 @@ export default function Nav() {
     return (
         <nav className='menu'>
             <Link to='/'>Home</Link>
-            <Link to='/product'>Produtos</Link>
+            <Link to='/product'>Aparelhos</Link>
         </nav>
     );
 }
