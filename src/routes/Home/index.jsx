@@ -32,7 +32,7 @@ export default function index() {
                 Placa de Vídeo GTX de Última Geração: Equipado com a poderosa placa de vídeo NVIDIA GeForce GTX, você terá gráficos de alta qualidade e taxa de quadros incrivelmente suave. Cada detalhe ganha vida, seja em jogos AAA ou em títulos competitivos.
                 Processador de Alto Desempenho: Com um processador de última geração, seu PC Gamer GTX Ready On não apenas lida facilmente com os jogos mais exigentes, mas também oferece potência para multitarefa intensiva.
               </p>
-              <h3>R$ 12,800</h3>
+              <h3>R$12.800</h3>
               <button>Compre agora</button>
             </div>
           </div>
