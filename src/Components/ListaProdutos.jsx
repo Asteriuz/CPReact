@@ -2,7 +2,7 @@
 import Ipad from '../assets/products/Ipad.png';
 import Iphone from '../assets/products/iphone13.png';
 import mi11 from '../assets/products/mi11.png';
-import motoG100 from '../assets/products/motoG100.webp';
+import motoG100 from '../assets/products/motoG100.png';
 import galaxyS21 from '../assets/products/galaxyS21.png';
 
 export const listaProdutos = [
