@@ -1,0 +1,60 @@
+main.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    flex-grow: 1;
+    gap: 200px
+}
+
+.btn {
+    padding: 1.5em 2.8em;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    color: #fff;
+    background-color: #ff3f40;
+    box-shadow: 2px 2px 25px -7px #4c4c4c;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+#sale1 {
+    position: relative;
+    top: -40px;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+}
+
+.sale-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    background-color: black;
+    flex-grow: 1;
+}
+
+.sale-num {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 131, 11);
+    flex-grow: 1;
+}
+
+#sale1 h2 {
+    font-weight: 300;
+}
