@@ -1,13 +1,15 @@
-import { Outlet } from "react-router-dom";
-// import './App.css';
-import "./Components/Cabecalho";
-import Cabecalho from "./Components/Cabecalho";
+import './App.css';
+import { Outlet } from 'react-router';
+import Nav from './Components/Nav';
+import Footer from './Components/Footer';
 
 function App() {
+
   return (
     <>
-      <Cabecalho teste="Teste" />
+      <Nav />
       <Outlet />
+      <Footer />
     </>
   );
 }
